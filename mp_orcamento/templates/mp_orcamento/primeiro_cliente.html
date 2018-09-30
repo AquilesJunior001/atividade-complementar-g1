@@ -1,0 +1,16 @@
+<h1>Primeiro Cliente</h1>
+<p>Cliente: {{ orcamentos.cliente.nome }} {{ orcamentos.cliente.email }}</p>
+<table border="1">
+    <thead>
+        <tr>
+            <th>Data e hora</th>
+            <th>Custo total (R$)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>{{ orcamentos.data_hora }}</td>
+            <td>{{ orcamentos.custo_total }}</td>
+        </tr>
+    </tbody>
+</table>
